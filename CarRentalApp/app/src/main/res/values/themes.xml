@@ -1,0 +1,17 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme with ActionBar -->
+    <style name="Base.Theme.CarRentalApp" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your light theme here -->
+        <item name="colorPrimary">#3F51B5</item> <!-- Custom color for the primary UI elements -->
+        <item name="colorPrimaryDark">#303F9F</item> <!-- Custom dark color for the status bar -->
+        <item name="colorAccent">#FF4081</item> <!-- Custom accent color for highlights -->
+    </style>
+
+    <!-- Base application theme without ActionBar -->
+    <style name="Base.AppTheme.CarRentalAppNoActionBar" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here -->
+        <item name="colorPrimary">#3F51B5</item> <!-- Custom color for the primary UI elements -->
+        <item name="colorPrimaryDark">#303F9F</item> <!-- Custom dark color for the status bar -->
+        <item name="colorAccent">#FF4081</item> <!-- Custom accent color for highlights -->
+    </style>
+</resources>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/optHome"
+        android:title="Home"
+        android:icon="@drawable/home_icon" />
+
+    <item
+        android:id="@+id/optAvaialbleCars"
+        android:title="Available Cars"
+        android:icon="@drawable/baseline_airport_shuttle_24"/>
+
+    <item
+        android:id="@+id/optSearch"
+        android:title="Search"
+        android:icon="@drawable/search_cr23"/>
+
+    <item
+        android:id="@+id/optCustomers"
+        android:title="Customers"
+        android:icon="@drawable/baseline_person_pin_24"/>
+    <item
+        android:id="@+id/optPayment"
+        android:title="Transactions"
+        android:icon="@drawable/baseline_account_balance_24"/>
+
+    <item
+        android:id="@+id/optBookmarked"
+        android:title="Booked Cars"
+        android:icon="@drawable/baseline_agriculture_24"/>
+
+    <item
+        android:id="@+id/optHelpAndSupport"
+        android:title="Help And Support"
+        android:icon="@drawable/baseline_add_link_24"/>
+
+    <item
+        android:id="@+id/optAboutUs"
+        android:title="About Us"
+        android:icon="@drawable/baseline_profile_24"/>
+
+    <item
+        android:id="@+id/optLogout"
+        android:title="Log Out"
+        android:icon="@drawable/baseline_ad_units_24"/>
+
+</menu>

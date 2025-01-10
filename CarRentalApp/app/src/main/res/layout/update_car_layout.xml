@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:background="@color/design_default_color_secondary"
+    android:paddingStart="21dp"
+    android:paddingEnd="21dp"
+    android:paddingBottom="11dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:text="Update Car"
+        android:id="@+id/carTxtTitle"
+        android:layout_margin="21dp"/>
+
+<!--    <EditText-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:autofillHints="c00"-->
+<!--        android:textSize="20sp"-->
+<!--        android:hint="Car ID"-->
+<!--        android:background="#fff"-->
+<!--        android:id="@+id/edtCarID"-->
+<!--        android:padding="11dp"-->
+<!--        android:layout_marginBottom="11dp"-->
+<!--        android:inputType="text"/>-->
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autofillHints="Toyota"
+        android:hint="Car Make"
+        android:background="#fff"
+        android:textColor="#1E1D1D"
+        android:textSize="20sp"
+        android:id="@+id/edtUpdCarMake"
+        android:padding="11dp"
+        android:layout_marginBottom="11dp"
+        android:inputType="text"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autofillHints="Toyota"
+        android:hint="Car Model"
+        android:textColor="#1E1D1D"
+        android:textSize="20sp"
+        android:background="#fff"
+        android:id="@+id/edtUpdCarModel"
+        android:padding="11dp"
+        android:layout_marginBottom="11dp"
+        android:inputType="text"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autofillHints="2020"
+        android:hint="Car Make Year"
+        android:textColor="#1E1D1D"
+        android:textSize="20sp"
+        android:background="#fff"
+        android:id="@+id/edtUpdCarYear"
+        android:padding="11dp"
+        android:layout_marginBottom="11dp"
+        android:inputType="number"/>
+
+<!--    <EditText-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:autofillHints="SDF231"-->
+<!--        android:hint="Car Licence Plate"-->
+<!--        android:textSize="20sp"-->
+<!--        android:background="#fff"-->
+<!--        android:id="@+id/edtCarLicPlate"-->
+<!--        android:padding="11dp"-->
+<!--        android:layout_marginBottom="11dp"-->
+<!--        android:inputType="text"/>-->
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autofillHints="100.0"
+        android:hint="Car Daily Rate"
+        android:textSize="20sp"
+        android:background="#fff"
+        android:id="@+id/edtUpdCarRate"
+        android:textColor="#1E1D1D"
+        android:padding="11dp"
+        android:layout_marginBottom="11dp"
+        android:inputType="numberDecimal"/>
+
+    <!--    <EditText-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:autofillHints="SDF231"-->
+    <!--        android:hint="Car Avaialability Status"-->
+    <!--        android:background="#fff"-->
+    <!--        android:textSize="20sp"-->
+    <!--        android:id="@+id/edtCarStatus"-->
+    <!--        android:padding="11dp"-->
+    <!--        android:layout_marginBottom="11dp"-->
+    <!--        android:inputType="text"/>-->
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Update"
+        android:id="@+id/carUpdDialogBtn"
+        android:backgroundTint="#fff"
+        android:layout_marginTop="11dp"
+        android:textColor="@color/design_default_color_secondary"
+        android:layout_gravity="end"/>
+
+</LinearLayout>
