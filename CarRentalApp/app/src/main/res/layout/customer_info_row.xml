@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="7dp"
+        app:cardUseCompatPadding="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="10dp">
+                <ImageView
+                    android:id="@+id/rowCustImg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                             android:src="@drawable/baseline_account_circle_70"/>
+                <TextView
+                    android:id="@+id/rowCustId"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="id"
+                    android:layout_gravity="center"/>
+            </LinearLayout>
+
+            <GridLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:rowCount="3"
+                android:columnCount="2">
+
+                <TextView
+                    android:id="@+id/rowCustFN"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="FirstName"
+                    android:textSize="20sp"
+                    android:layout_marginEnd="10dp"
+                    android:textColor="#565050"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:id="@+id/rowCustLN"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="LastName"
+                    android:textSize="20sp"
+                    android:layout_marginStart="10dp"
+                    android:textColor="#565050"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:id="@+id/rowCustPhn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Phone"
+                    android:layout_marginEnd="10dp"
+                    android:textSize="20sp"
+                    android:textColor="#565050"/>
+
+                <TextView
+                    android:id="@+id/rowCustEmail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:text="Email"
+                    android:textSize="20sp"
+                    android:textColor="#443D3D"/>
+                <TextView
+                    android:id="@+id/rowCustAdd"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Address"
+                    android:textSize="20sp"
+                    android:textColor="#443D3D"/>
+
+
+
+            </GridLayout>
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>

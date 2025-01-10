@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:background="@color/design_default_color_secondary"
+    android:paddingStart="21dp"
+    android:paddingEnd="21dp"
+    android:paddingBottom="11dp"
+    android:orientation="vertical">
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:text="Add Car"
+        android:id="@+id/carTxtTitle"
+        android:layout_margin="21dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autofillHints="c00"
+        android:textSize="20sp"
+        android:textColor="#1E1D1D"
+        android:hint="Car ID"
+        android:background="#fff"
+        android:id="@+id/edtCarID"
+        android:padding="11dp"
+        android:layout_marginBottom="11dp"
+        android:inputType="text"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autofillHints="Toyota"
+        android:hint="Car Make"
+        android:background="#fff"
+        android:textColor="#1E1D1D"
+        android:textSize="20sp"
+        android:id="@+id/edtCarMake"
+        android:padding="11dp"
+        android:layout_marginBottom="11dp"
+        android:inputType="text"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autofillHints="Toyota"
+        android:hint="Car Model"
+        android:textSize="20sp"
+        android:textColor="#1E1D1D"
+        android:background="#fff"
+        android:id="@+id/edtCarModel"
+        android:padding="11dp"
+        android:layout_marginBottom="11dp"
+        android:inputType="text"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autofillHints="2020"
+        android:hint="Car Make Year"
+        android:textColor="#1E1D1D"
+        android:textSize="20sp"
+        android:background="#fff"
+        android:id="@+id/edtCarYear"
+        android:padding="11dp"
+        android:layout_marginBottom="11dp"
+        android:inputType="number"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autofillHints="SDF231"
+        android:hint="Car Licence Plate"
+        android:textColor="#1E1D1D"
+        android:textSize="20sp"
+        android:background="#fff"
+        android:id="@+id/edtCarLicPlate"
+        android:padding="11dp"
+        android:layout_marginBottom="11dp"
+        android:inputType="text"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autofillHints="100.0"
+        android:hint="Car Daily Rate"
+        android:textColor="#1E1D1D"
+        android:textSize="20sp"
+        android:background="#fff"
+        android:id="@+id/edtCarRate"
+        android:padding="11dp"
+        android:layout_marginBottom="11dp"
+        android:inputType="numberDecimal"/>
+
+<!--    <EditText-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:autofillHints="SDF231"-->
+<!--        android:hint="Car Avaialability Status"-->
+<!--        android:background="#fff"-->
+<!--        android:textSize="20sp"-->
+<!--        android:id="@+id/edtCarStatus"-->
+<!--        android:padding="11dp"-->
+<!--        android:layout_marginBottom="11dp"-->
+<!--        android:inputType="text"/>-->
+    
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add"
+        android:id="@+id/carDialogBtn"
+        android:backgroundTint="#fff"
+        android:layout_marginTop="11dp"
+        android:textColor="@color/design_default_color_secondary"
+        android:layout_gravity="end"/>
+
+</LinearLayout>
